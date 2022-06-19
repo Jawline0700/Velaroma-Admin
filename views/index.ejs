@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href = "css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script src="https://kit.fontawesome.com/82edd683c2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<header> 
+<% if(bandera == 15){ %>
+<%- include('partials/header1') %>
+<% }if(bandera == 14){%>
+<%- include('partials/header2') %>
+<% } %>
+</header>
+<body>
+    <% if(bandera == 14){%>
+    <%- include('partials/menu') %>
+    <% }if(pagina == 1){ %>
+    <%- include('sections/login') %>
+    <% }if(pagina == 2){%>
+    <%-include('sections/inicio') %>
+    <% } if(pagina == 3){%> 
+    <%-include('sections/olvido')%>
+    <% } if(pagina == 4){%>
+    <%-include('sections/confirmar')%>
+    <% } if(pagina == 5){%>
+    <%-include('sections/reescribir')%>
+    <% } if (pagina == 6){%>
+        <br>
+        <br>
+    <%-include('sections/tabla1')%>
+    <% }if (pagina == 7) {%>
+    <%-include('sections/editar')%>
+    <% } if(pagina == 8) { %>
+    <%-include('sections/vertransacciones')%>
+    <% } if(pagina == 9) { %>
+    <%-include('sections/listado')%>
+    <% } if(pagina == 10) { %>
+    <%-include('sections/vistaproducto')%>  
+    <% }if(pagina == 11) {  %>  
+    <%-include('sections/editarproducto')%>  
+    <% } if(pagina == 12) {%>
+    <%-include('sections/agregarproducto')%> 
+    <% } %>
+</body>
+<br>
+<br>
+<footer>
+    <% if(bandera == 15){ %>
+    <%- include('partials/footer1') %>
+    <% } if(bandera == 14){%>
+    <%- include('partials/footer2')%>
+    <%}%>
+</footer>
+</html>

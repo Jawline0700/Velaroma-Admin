@@ -1,0 +1,34 @@
+<nav>
+    <ul>
+      <li>
+        <% if(pagina == 2){} %>
+          <a href="principal">
+          <i class="fa-solid fa-house fa-2xl"></i><p>Inicio</p>
+          </a>
+     </li>
+      <li>
+        <% if(pagina == 6){} %>
+        <a href="userupdate"><i class="fa-solid fa-users fa-2xl"></i><p>Editar/Agregar Usuario</p>
+        </a>
+      </li>
+      <li>
+        <% if(pagina == 10){} %>
+        <a href="vistaproducto"><i class="fa-solid fa-parachute-box fa-2xl"></i><p>Editar/Agregar Producto</p>
+        </a>
+      <li>
+        <% if(pagina == 9){} %>
+        <a href="listado"><i class="fa-solid fa-truck fa-2xl"></i><p>Listado de Pedidos</p>
+        </a>
+      </li>
+      <li>
+        <% if(pagina == 8){} %>
+        <a href="transacciones"><i class="fa-solid fa-money-check-dollar fa-2xl"></i><p>Transacciones</p>
+        </a>
+      </li>
+      <li>
+       <% if(pagina == 1){ }%>
+        <a href="/"><i class="fa-solid fa-circle-xmark fa-2xl"></i><p>Cerrar Sesion</p>
+        </a>
+      </li>
+    </ul>
+</nav>

@@ -1,0 +1,42 @@
+<section>
+    <form action="principal">
+        <fieldset>
+            <div class="subtitulo">
+                <br>
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <H2>INICIO DE SESIÓN</H2>
+            </div> 
+            <div class="entradas">
+                Ingrese su Correo:
+                <br>
+                <br>
+                <i class="fa-regular fa-user"></i>
+                <br>
+                <input name="correo" type="email" placeholder="alguien@tucorreo.com" >
+                <br>
+                <br>
+                <i class="fa-solid fa-key"></i>
+                <br>
+                Contraseña:
+                <br>
+                <br>
+                <input name="password" type="password" placeholder="**********">
+                <br>
+                <br>
+                <% if(pagina == 3) { }%>
+                <a href="olvidar">¿Olvido Contraseña?</a>
+                <br>
+                <br>
+            <div class="botones"> 
+                <div class="btn1">
+                <input class="enviar" type="submit" name="enviar" value="INGRESAR">
+                </div>
+                <BR>
+                <div class="btn2">
+                <input class="cancelar" type="reset" name="cancelar" value="CANCELAR" >
+            </div>
+            </div> 
+            </div>
+        </fieldset>
+    </form>
+</section>

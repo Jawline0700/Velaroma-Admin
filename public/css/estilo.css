@@ -1,0 +1,334 @@
+@font-face{
+	font-family:"Riwaya-Italic";
+	src:url("fuentes/Riwaya-Italic.ttf") format("truetype");
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#D8A2A2;
+    padding: 0;
+  }
+  
+
+  .hero1{
+   overflow: hidden;
+    background-color:#D8A2A2;
+    padding: 0;
+  }
+  H1{
+    font-family:"Riwaya-Italic"; 
+  }
+
+  .logo{margin-left: 0.55rem;
+    width: fit-content;
+    font-family:"Riwaya-Italic";
+    margin-top:0.1rem;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content:space-around;}
+
+
+
+nav{font-family:"Riwaya-Italic";
+    font-size:20px;
+	list-style: none;
+	padding: 0;
+    text-align: center;
+	overflow: hidden;
+	background:#D8A2A2;
+	width: 100vw;
+	margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	display: block;
+}
+nav li a:hover{
+	background: #A48B8B;
+	color:white;
+	
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+}
+
+.submenu{display:none;
+    background-color:#D8A2A2;}
+
+nav ul li:hover .submenu{display:block;
+                    position:absolute;				    
+                    z-index: 3;  
+                    margin-top:0px;
+                    }
+                    ul{margin:0;
+                        padding:0;}            
+
+body{
+    background-color: rgb(255, 239, 250);
+    margin:0;
+}
+.titulo{
+    font-weight: bold;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white; font-family:"Riwaya-Italic" ;
+}
+
+footer{
+
+    background-color:#D8A2A2;
+}
+.pie{
+    background-color:#D8A2A2;
+    color:white;
+    font-family:"Riwaya-Italic";
+    font-size:20px;
+    padding-left:350px;
+    float:left;
+}
+.pie2{
+    background-color:#D8A2A2;
+    color:white;
+    font-family:"Riwaya-Italic";
+    font-size:20px;
+    padding-right:350px;
+    float:right;
+  
+   
+}
+.pie3{
+    background-color:#D8A2A2;
+    font-family:"Riwaya-Italic";
+    font-size:14px;
+    color: #FFFFFF;
+    justify-content:center;
+    display: flex;
+    padding: 0;
+}
+
+
+form {
+    display : flex;
+    justify-content: center;
+    padding-top:40px;
+}
+
+.titulo{
+    font-family:"Riwaya-Italic";
+    display:flex;
+    font-size:2.5rem;
+    justify-content: right;
+    color: #FFFFFF;
+
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Riwaya-Italic";
+    font-size: 18px;
+    background-color: #D8A2A2;
+    border-radius:5px;
+    width:30%;
+    box-shadow: 7px 13px 37px;
+    height:600px;
+    }
+
+
+      
+
+        .entradas{
+            text-align: center;
+            width: 95%;
+            font-size:18px;
+            font-family:"Riwaya-Italic";
+            color:black;
+            border-radius:70px;
+            }
+        
+            .entradas input[type=text]{
+                margin-bottom: 2px;
+                width: 95%;
+                font-size:18px;
+                border-radius: 4px;
+                border: 2px solid #735b5b;
+                padding: 5px;
+                font-family:"Riwaya-Italic";
+            }
+            
+        
+        .entradas input[type=password]{
+            margin-bottom: 2px;
+            font-size:18px;
+            width: 95%;
+            border-radius: 4px;
+            border: 2px solid #735b5b;
+            padding: 5px;
+            font-family:"Riwaya-Italic";}
+        
+        .entradas input[type=email]{
+            margin-bottom: 2px;
+            font-size:18px;
+            width: 95%;
+            border-radius: 4px;
+            border: 2px solid #735b5b;
+            padding: 5px;
+            font-family:"Riwaya-Italic";
+            }
+
+            .entradas input[type=number]{
+                margin-bottom: 2px;
+                font-size:18px;
+                width: 95%;
+                border-radius: 4px;
+                border: 2px solid #735b5b;
+                padding: 5px;
+                font-family:"Riwaya-Italic";
+                }
+        
+.botones{
+    display:inline-block;
+    width:130px;
+}
+
+
+.subtitulo{
+    font-family:"Riwaya-Italic";
+    text-align: center;
+    color: black;
+}
+
+.enviar{
+    background-color: #735b5b;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+    border-radius: 4px;}
+
+.cancelar{
+    background-color: #735b5b;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+width: 100%;}
+
+.btn1{
+    margin-right: 1rem;
+   overflow: hidden;
+}
+.btn2{
+    margin-right: 1rem;
+   overflow: hidden;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-family:"Riwaya-Italic";
+}
+
+td, th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+th {
+    background-color: #a48b8b;
+}
+
+
+.boton {
+    background-color: #D8A2A2;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 15px;
+    margin: 2px 2px;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+    
+}
+
+
+
+.agregar:hover {
+    background-color: #735b5b;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    font-family:"Riwaya-Italic";
+    border-radius: 4px;
+}
+
+.agregar {
+    background-color: #735b5b;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+
+.boton:hover{
+    background-color: #D8A2A2;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 15px;
+    margin: 2px 2px;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    color: black;
+}
+
+
+
+select {
+    margin-bottom: 2px;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #735b5b;
+    padding: 5px;
+}
